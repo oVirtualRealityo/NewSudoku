@@ -80,11 +80,11 @@ hr {
     width: 100%;
 }
 .playingField {
-    width: 560px;
-    max-width: 95%;
+    width: 95%;
+    max-width: 590px;
     background-color: rgb(224, 225, 186);
     margin: auto;
-    border: 4px solid black;
+    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -192,6 +192,8 @@ hr {
     background-color: rgb(220, 220, 220);
     top: 5%;  
     box-shadow: 12px 12px 9px rgba(0, 0, 0, 0.75);
+    border: 2px solid black;  
+
 }
 #playSudoku h2 {
     padding: 8px;
@@ -200,14 +202,20 @@ hr {
     border:4px solid rgb(255, 0, 0);
     letter-spacing: 0.2rem;
     text-decoration: underline 2px red;
+    
 }
 #playSudoku>h4 {
     text-align: center;
     padding: 4px;
+    display: block;
     background-color: aliceblue;
+    border: 2px solid black;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .forForm {
-    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    width: 90%;
     height: 35%;
     background-color: rgb(220, 220, 220);
     display: flex;
