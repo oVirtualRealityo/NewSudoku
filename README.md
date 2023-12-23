@@ -1,0 +1,2 @@
+# NewSudoku
+no coying granted
